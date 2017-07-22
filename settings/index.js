@@ -22,7 +22,11 @@ module.exports = {
   workingDirectory: path.join(__dirname, "..", "tmp"),
   storagePath: path.join(__dirname, "..", "media"),
   fonts: [
-    { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Regular.ttf") },
+    { family: "Merriweather", file: path.join(__dirname, "fonts", "Merriweather-Regular.ttf") },
+	{ family: "Merriweather", file: path.join(__dirname, "fonts", "Merriweather-Bold.ttf") },
+	{ family: "Merriweather", file: path.join(__dirname, "fonts", "Merriweather-Italic.ttf") },
+	{ family: "Merriweather", file: path.join(__dirname, "fonts", "Merriweather-Light.ttf") },
+	{ family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Regular.ttf") },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Light.ttf"), weight: 300 },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Bold.ttf"), weight: "bold" },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Italic.ttf"), style: "italic" },
