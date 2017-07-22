@@ -22,6 +22,8 @@ module.exports = {
   workingDirectory: path.join(__dirname, "..", "tmp"),
   storagePath: path.join(__dirname, "..", "media"),
   fonts: [
+    { family: "Open Sans", file: path.join(__dirname, "fonts", "OpenSansRegular.ttf") },
+    { family: "Open Sans", file: path.join(__dirname, "fonts", "OpenSansLight.ttf") },
     { family: "Merriweather", file: path.join(__dirname, "fonts", "Merriweather-Regular.ttf") },
 	{ family: "Merriweather", file: path.join(__dirname, "fonts", "Merriweather-Bold.ttf") },
 	{ family: "Merriweather", file: path.join(__dirname, "fonts", "Merriweather-Italic.ttf") },

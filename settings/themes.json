@@ -16,15 +16,17 @@
     "captionRight": 1080
   },
   "aero": {
-    "captionAlign": "right",
+    "captionColor": "#fff",
     "captionTop": 60,
-    "captionRight": 1220,
-    "captionLeft": 640,
-    "captionFont": "300 52px 'Merriweather'",
+    "captionBottom": 360,
+    "captionFont": "300 52px 'Open Sans'",
     "backgroundImage": "background.jpg",
-    "foregroundColor": "#fff",
+    "pattern": "bricks",
+    "waveTop": 420,
     "waveBottom": 660,
-    "waveTop": 320
+    "waveLeft": 60,
+    "waveRight": 1220,
+    "waveColor": "#f5d493"
   },
   "Basic": {
     "backgroundColor": "#eee",
